@@ -1,22 +1,10 @@
+
 #include <iostream>
+#include "util.h"
+
 
 using namespace std;
 
-void print_array(int ary[], size_t size)
-{
-    for (size_t i = 0; i < size; ++i){
-        cout<<" "<<ary[i];
-    }
-    cout<<" "<<endl;
-}
-
-
-void swap(int *a, int *b)
-{
-    int tmp = *a;
-    *a = *b;
-    *b = tmp;
-}
 
 void bubble_sort(int ary[], size_t size)
 {

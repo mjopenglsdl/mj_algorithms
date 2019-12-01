@@ -9,5 +9,4 @@ SET(CMAKE_BUILD_TYPE "Debug")
 SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g")
 # SET(CMAKE_CXX_FLAGS_RELEdeASE "$ENV{CXXFLAGS} -O3 -Wall")
 
-
-add_executable(bubble_sort "src/bubble_sort.cpp")
+add_subdirectory(src)
